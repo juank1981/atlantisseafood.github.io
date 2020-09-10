@@ -1,0 +1,102 @@
+*{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+}
+
+.contenedor{
+            width: 100%;
+            max-width: 100%;
+            display: flex;
+            margin: auto;
+            background: #5CA5D9;
+            padding: 10px 250px;
+            position: fixed;
+            justify-content: space-between;
+            border-bottom: 1px solid transparent;
+            box-shadow: 1px 1px 30px 0 rgba(15, 14, 14, 0.2);
+}
+
+body{
+      font-family: 'Roboto';      
+}
+
+.enlaces{
+            text-decoration: none;
+            padding: 10px;
+}
+
+.img1{
+            height: 400px;
+            padding-top: 60px;
+
+}
+
+.contenedor2{
+
+            width: 90%;
+            display: flex;
+            max-width: 1100px;
+            align-items: center;
+            margin: auto;
+            background: #E9EAEB;
+            box-shadow: 5px 5px 40px 0 rgba(0, 0, 0, 0.2);
+            justify-content: space-around; 
+            padding: 5px      
+}
+
+.cta{
+      text-decoration: none;
+}
+
+.img2{
+      height: 310px;
+}
+
+.contenedor3{
+      width: 90%;
+      max-width: 1100px;
+      background: #E9EAEB;
+      margin: auto;
+}
+
+.titulo2{
+      text-align: center;
+      padding: 10px;
+}
+
+.tarjetas1{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+}
+
+
+
+.contenedor4{
+      width: 90%;
+      max-width: 1100px;
+      background: #E9EAEB;
+      margin: auto;
+}
+
+.titulo4{
+      text-align: center;
+      padding: 10px;
+}
+
+.tarjetas2{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+}
+
+.img3{
+      width: 500px;
+      height: 490px;
+}
+
+.pie-pagina{
+      text-align: center;
+      padding: 10px;
+}
